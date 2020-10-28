@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vouchers xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xmlns="http://example.com/voucher"
+          xsi:schemaLocation="http://example.com/voucher voucher.xsd">
+    <vocation id="ID1">
+        <transport>airplane</transport>
+        <cost>2000</cost>
+        <day>10</day>
+        <country>Turkey</country>
+        <hotel-star>four</hotel-star>
+        <sea-distance>600</sea-distance>
+    </vocation>
+    <vocation id="ID2">
+        <transport>sea-liner</transport>
+        <cost>1200</cost>
+        <day>8</day>
+        <country>Morocco</country>
+        <hotel-star>three</hotel-star>
+        <sea-distance>400</sea-distance>
+    </vocation>
+    <excursion id="ID3">
+        <transport>bus</transport>
+        <cost>800</cost>
+        <day>4</day>
+        <country>Belarus</country>
+        <cost-bonus-service>50</cost-bonus-service>
+        <numbers-stop>6</numbers-stop>
+    </excursion>
+    <excursion id="ID4">
+        <transport>bus</transport>
+        <cost>600</cost>
+        <day>5</day>
+        <country>Russia</country>
+        <cost-bonus-service>120</cost-bonus-service>
+        <numbers-stop>8</numbers-stop>
+    </excursion>
+    <pilgrimage id="ID5">
+        <transport>train</transport>
+        <cost>200</cost>
+        <day>4</day>
+        <country>Ukraine</country>
+        <guide>false</guide>
+        <main-attraction>Zhytomyr monastery</main-attraction>
+    </pilgrimage>
+    <pilgrimage id="ID6">
+        <transport>bus</transport>
+        <cost>300</cost>
+        <day>5</day>
+        <country>Russia</country>
+        <guide>true</guide>
+        <main-attraction>Saint Isaac's Cathedral</main-attraction>
+    </pilgrimage>
+</vouchers>
+
+
+
+
